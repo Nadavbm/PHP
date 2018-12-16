@@ -80,3 +80,39 @@ Please, enjoy.
   do {
     // code...
   } while ($a <= 10);
+
+  // Loop and arrays functions for example:
+
+  for ($x = 0; $x <= 10; $x++) {
+      echo "$x <br>"; // Echo numbers from 0 to 10 in separate rows
+  }
+
+  $array = array("Smart sentence", "Dumb sentence", 12);
+
+  foreach ($array as $row) {
+    echo "Some text ".$row."<br>"; // Echo every value of an array in a dirfferent row
+  }
+
+  while($x <= 5) {
+    echo "$x <br>"; // Echo $x and increase $x in +1. Loop will end when $x = 5
+    $x++;
+  }
+
+  do {
+    echo "$x <br>"; // Do the same as the loop above
+    $x++;
+  } while ($x <= 5);
+
+  // Swith statements:
+  switch (n) {
+    case x:
+      code to execute if n=x;
+      break;
+    case y:
+      code to execute if n=y;
+      break;
+    case z:
+      code to execute if n=z;
+      break;
+
+   // Switch statements example:
